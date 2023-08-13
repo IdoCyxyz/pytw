@@ -7,6 +7,10 @@ on:
     branches: [ main ]
 
 jobs:
+
+
+
+
   python_ci:
 
     runs-on: ubuntu-latest
@@ -16,6 +20,12 @@ jobs:
         python-version: [3.9]
 
     steps:
+    - name: Run Cimon
+      uses: cycodelabs/cimon-action@v0
+      with:
+        client-id: ${{ secrets.CIMON_CLIENT_ID }}
+        secret: ${{ secrets.CIMON_SECRET }}
+
     - uses: actions/checkout@v2
 
     - name: Set up Python ${{ matrix.python-version }}
