@@ -26,6 +26,7 @@ jobs:
         client-id: ${{ secrets.CIMON_CLIENT_ID }}
         secret: ${{ secrets.CIMON_SECRET }}
 
+
     - uses: actions/checkout@v2
 
     - name: Set up Python ${{ matrix.python-version }}
