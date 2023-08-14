@@ -8,9 +8,6 @@ on:
 
 jobs:
 
-
-
-
   python_ci:
 
     runs-on: ubuntu-latest
