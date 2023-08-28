@@ -7,6 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
+
   python_ci:
 
     runs-on: ubuntu-latest
