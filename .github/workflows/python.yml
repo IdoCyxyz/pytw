@@ -39,8 +39,6 @@ jobs:
     #     env:
     # ##      SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
 
-    - name: Documentation
-      run: cd docs && make html
 
     #- name: Deploy documentation
     #  uses: peaceiris/actions-gh-pages@v3
