@@ -17,8 +17,12 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
-    
+
+    - name: nodejsscan scan
+      uses: ajinabraham/njsscan-action@master
+      with:
+        args: '.'
+        
     #- name: Run Cimon
     #  uses: cycodelabs/cimon-action@v0
     #  with:
