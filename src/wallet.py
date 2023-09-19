@@ -14,4 +14,7 @@ class Wallet(object):
 
     def add_cash(self, amount):
         self.balance += amount
+aws_secret = "dsafadsfds"
+my_secret_password = "adfs.kgjhdflkghadfskl;gjerqkjlgh45ejkgnadrf"
+real_password = "ThisIsMYRealPassword##%R#@%"
 #test
