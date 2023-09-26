@@ -22,7 +22,13 @@ jobs:
         client-id: ${{ secrets.CIMON_CLIENT_ID }}
         secret: ${{ secrets.CIMON_SECRET }}
 
-
+    - name: Create Next Snapshot Pull Request
+      uses: peter-evans/create-pull-request@v4
+      if: env.RELEASE_OK == 'yes'
+      with:
+        token: ${{ steps.generate-token.outputs.token }}
+        commit-message: bump snapshot ${{ env.SC_NEXT_VERSION }}-SNAPSHOT
+        title: 'bump snapshot ${{ env.SC_NEXT_VERSION }}-SNAPSHOT'
 
     - uses: actions/checkout@v2
 
