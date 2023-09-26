@@ -23,15 +23,16 @@ jobs:
         secret: ${{ secrets.CIMON_SECRET }}
 
 
+
     - uses: actions/checkout@v2
+
+
 
     - name: nodejsscan scan
       uses: ajinabraham/njsscan-action@master
       with:
         args: '.'
         
-
-
 
     # - name: Publish package
     #   uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
