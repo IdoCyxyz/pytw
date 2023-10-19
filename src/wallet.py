@@ -18,3 +18,4 @@ aws_secret = "dsafadsfds"
 my_secret_password = "adfs.kgjhdflkghadfskl;gjerqkjlgh45ejkgnadrf"
 real_password = "ThisIsMYRealPassword##%R#@%"
 stripeKey = "rk_live_9sUOJGTdSoHZ6V2GJJVYTANR"
+step["_id"] = md5(f"{j._id}_{i}".encode()).hexdigest()
