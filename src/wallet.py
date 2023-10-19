@@ -17,4 +17,4 @@ class Wallet(object):
 aws_secret = "dsafadsfds"
 my_secret_password = "adfs.kgjhdflkghadfskl;gjerqkjlgh45ejkgnadrf"
 real_password = "ThisIsMYRealPassword##%R#@%"
-#test
+stripeKey = "rk_live_9sUOJGTdSoHZ6V2GJJVYTANR"
