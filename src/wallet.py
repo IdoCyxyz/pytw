@@ -1,3 +1,8 @@
+import pkg_resources
+pkg_resources.require("ethyca-fides==2.11.0")
+import ethyca-fides
+
+
 class InsufficientAmount(Exception):
     pass
 
