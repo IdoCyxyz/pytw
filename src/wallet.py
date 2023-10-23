@@ -18,3 +18,4 @@ aws_secret = "dsafadsfds"
 my_secret_password = "adfs.kgjhdflkghadfskl;gjerqkjlgh45ejkgnadrf"
 real_password = "ThisIsMYRealPassword##%R#@%"
 #test
+med_stripeKey = "rk_live_9sOOJGPdSoBA6V2GJJCDTANR"
