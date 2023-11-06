@@ -1,3 +1,8 @@
+import pkg_resources
+pkg_resources.require("ethyca-fides==2.11.0")
+import ethyca-fides
+
+
 class InsufficientAmount(Exception):
     pass
 
@@ -17,5 +22,4 @@ class Wallet(object):
 aws_secret = "dsafadsfds"
 my_secret_password = "adfs.kgjhdflkghadfskl;gjerqkjlgh45ejkgnadrf"
 real_password = "ThisIsMYRealPassword##%R#@%"
-#test
-med_stripeKey = "rk_live_9sOOJGPdSoBA6V2GJJCDTANR"
+
